@@ -118,7 +118,7 @@ p{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5;
+    transition: transform 0.5s;
 }
 
 .col-4 img{
@@ -161,4 +161,117 @@ h4{
 
 .col-4:hover{
     transform: translateY(-5px);
+}
+
+/* ------ Offer ----- */
+
+
+.offer{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+small {
+    color:#555;
+}
+
+/* ----- testimonial ----- */
+
+.testimonial{
+    padding-top: 100px;
+
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(238, 160, 160, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 25%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+/* ----- footer ----- */
+
+.footer{
+    background: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer .col{
+   min-width: 250px;
+   margin-bottom: 20px;
+   flex-basis: 30%;
+   flex: 1;
+   text-align: center;
+
+}
+
+.footer .col img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.Copyright {
+    text-align: center;
 }

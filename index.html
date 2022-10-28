@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Pick-A-Pet</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="./Pick-A-Pet Logo.png" alt="" width="125px">
+                    <img src="./Pick-A-Pet Logo.png" alt="" width="150px">
                 </div>
                 <nav>
                     <ul>
@@ -30,7 +32,7 @@
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </nav>
-                <i class="fa-sharp fa-solid fa-cart-shopping" width="30px" height="30px"></i>
+                <i class="fa fa-shopping-cart" aria-hidden="true" alt=""></i>
             </div>
         </div>
         <div class="row">
@@ -41,40 +43,54 @@
                     guarantee the health and pedigree of our animals. </p>
                 <a href="" class="btn">Take a Look! &#10140;</a>
             </div>
-    
-    
             <div class="col-2">
                 <img src="./dog & cat.jpg" alt="">
-    
-    
             </div>
         </div>
     </div>
+    <!-- ----- About Us ----- -->
+    <div class="container">
+        <div class="row">
+        <h2 class="title">About Us</h2>
+        <p>Pick-A-Pet was established in 2020 by Jason Hunter and his fiance Jamie Sobieck with the family in mind. They wanted to find a sustainable way to cater to family's needs for a pet and source 
+         them responsibly. They searched the country for small breeding operations and established relationships with farms and families who have love for the animals they breed.</p>
+         <p>In the summer of 2022, during their travels abroad with their 2 children, they found that outside of cats and dogs, other exotic pets could be sourced similarly. They established relationships with breeders of
+            different species from around the globe; along with learning the laws, regulations, and customs for owning particular species within the US. It was during that time they expanded Pick-A-Pet 
+            beyond cats, dogs, and hamsters. The roster now includes everything from <strong>Sugar Gliders to Capuchin Monkeys.</strong> 
+         </p>
+         <p>If you find yourself or someone you know ready to take on a new pet or add to your family, we'd like for you to consider Pick-A-Pet. Happy Picking!! </p>
+        <p class="text-center">- Jason & Jamie</p>
+        </div>
+    </div>
     
-    <!-- Featured Categories  -->
+    <!---- Featured Categories  ---->
     
     <div class="categories">
-        <div class="small-container">
+        <div class="container">
+            <h2 class="title">Categories</h2>
             <div class="row">
                 <div class="col-3">
-                    <img src="./puppies1.jpg" alt="">
+                    <h2 class="text-center">Dogs</h2>
+                    <img src="./puppies1.jpg" alt="" style="height: 250px;">
                 </div>
                 <div class="col-3">
-                    <img src="./kittens1.jpg" alt="" style="padding: 10px">
+                    <h2 class="text-center">Cats</h2>
+                    <img src="./kittens1.jpg" alt="" style="height: 250px;">
                 </div>
                 <div class="col-3">
-                    <img src="./Chinchillas-5.jpg" alt="">
+                    <h2 class="text-center">Exotics</h2>
+                    <img src="./Chinchillas-5.jpg" alt="" style="height: 250px;">
                 </div>
             </div>
         </div>
     </div>
     
-    <!-- Featured Products  -->
-    <div class="small-container">
+    <!--- Featured Products  --->
+    <div class="container">
         <h2 class="title">Featured Pets</h2>
         <div class="row">
-            <div class="col-4">
-                <img src="./rottweiler-2160308_1280-1024x682.jpg" alt="">
+            <div class="col-3">
+                <img src="./rottweiler-2160308_1280-1024x682.jpg" alt="" style="height: 200px; width: 250px;">
                 <h4>Rocky- Rottweiler</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -85,8 +101,8 @@
                 </div>
                 <p>$2500.00</p>
             </div>
-            <div class="col-4">
-                <img src="./heathcliff1.jpg" alt="" style="padding-top: 8px;">
+            <div class="col-3">
+                <img src="./heathcliff1.jpg" alt="" style="height: 175px; width: 250px;">
                 <h4>Heathcliff- Persian Tabby </h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -96,8 +112,8 @@
                 </div>
                 <p>$50.00</p>
             </div>
-            <div class="col-4">
-                <img src="./chinchilla.jpg" alt="">
+            <div class="col-3">
+                <img src="./chinchilla.jpg" alt="" style="height: 205px; width: 250px;">
                 <h4>Rex- Chinchilla</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -108,9 +124,9 @@
                 </div>
                 <p>$4000.00</p>
             </div>
-            <div class="col-4">
-                <img src="./Flying-Squirrel-3.jpg" alt="">
-                <h4>Chiquita- Flying Squirrel</h4>
+            <div class="col-3">
+                <img src="./Flying-Squirrel-3.jpg" alt="" style="height: 200px;">
+                <h4>Chiquita- Sugar Glider</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -120,8 +136,8 @@
                 </div>
                 <p>$5500.00</p>
             </div>
-            <div class="col-4">
-                <img src="./iguana.jpg" alt="" style="padding-bottom: 10px;">
+            <div class="col-3">
+                <img src="./iguana.jpg" alt="" style="height: 200px;">
                 <h4>Lobo- Iguana</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -134,8 +150,8 @@
         <div class="small-container">
             <h2 class="title">New Arrivals</h2>
             <div class="row">
-                <div class="col-4">
-                    <img src="./capuchin.jpg" alt="">
+                <div class="col-3">
+                    <img src="./capuchin.jpg" alt="" style="height: 200px;">
                     <h4>Billy- Capuchin Monkey</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -146,8 +162,8 @@
                     </div>
                     <p>$10,000.00</p>
                 </div>
-                <div class="col-4">
-                    <img src="./english_bulldog.jpg" alt="">
+                <div class="col-3">
+                    <img src="./english_bulldog.jpg" alt="" style="height: 200px;">
                     <h4>Mojo- English Bulldog </h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -158,8 +174,8 @@
                     </div>
                     <p>$5000.00</p>
                 </div>
-                <div class="col-4">
-                    <img src="./Pitbull-puppies-for-sale-in-California-862x861.jpg" alt="">
+                <div class="col-3">
+                    <img src="./Pitbull-puppies-for-sale-in-California-862x861.jpg" alt="" style="height: 200px;">
                     <h4>Broly- Pit Bull</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -170,23 +186,151 @@
                     </div>
                     <p>$1800.00</p>
                 </div>
-                    <div class="col-4">
-                        <img src="./cockatoo.jpg" alt="">
-                        <h4>Billy- Cockatoo</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>$2000.00</p>
+                <div class="col-3">
+                    <img src="./cockatoo.jpg" alt="" style="height: 200px;">
+                    <h4>Billy- Cockatoo</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                     </div>
+                    <p>$2000.00</p>
                 </div>
             </div>
         </div>
+    </div>
+    <!----- Offer ------>
+    <div class="offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./collar_leash_combo.jpg" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exlusively Available with Purchase on Pick-A-Pet</p>
+                    <h1>Collar-Leash Combo</h1>
+                    <small>Collar and leash combo comes with purchase of all pets classified as dogs.
+                    </small>
+                    <p><a href="" class="btn">Claim Here &#8594;</a></p>
+                </div>
+            </div>
         </div>
-   
+    </div>
+    
+    <!------ testimonial ------->
+    <div class="testimonial">
+        <div class="container">
+            <h2 class="title">Testimonials</h2>
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Absolutely amazing. Very nice people, great selection and prices. We bought 3 dogs and it was
+                        wonderful.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="./3pitbullpups.jpg" alt="">
+                    <h3>Jana S.</h3>
+                </div>
+    
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Service was amazing and helpful! Friendly workers who really took the time with a customers needs,
+                        wants & questions! Going to revisit again. (:</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/a/b8/ab882280-d218-580f-84b6-11df6f4133eb/5bfd756ee8708.image.jpg?resize=400%2C225"
+                        alt="">
+                    <h3>David H.</h3>
+                </div>
+    
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Love this store and the variety in quality products! Definitely making the switch from major chain
+                        Petco to awesome Pick-A-Pet! :) </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://www.gannett-cdn.com/authoring/2007/07/19/NSTN/ghows-NC-a7eb6a08-4ada-4c94-9c2e-673e48772a6c-b8d6d63b.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp"
+                        alt="">
+                    <h3>Leah B.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------- Contact Us------>
+    <div class="contact-us">
+        <div class="container">
+            <h2 class="title">Contact Us</h2>
+            <form action="mailto:jayhun21@gmail.com" method="post">
+                <label>Your Name</label>
+                <input type="text"><br>
+                <label>Email</label>
+                <input type="email"><br>
+                <label>Your Message:</label>
+                <textarea name="name" rows="10" cols="30"></textarea><br>
+                        <input type="submit">
+                    </form>
+                </div>
+             </div>
+            
 
+
+    <!-- ----- footer ----- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Download Our App</h3>
+                    <p class="text-white">Download App for Android and iOS Mobile Devices.</p>
+                    <div class="app-logo">
+                        <img src="https://p.kindpng.com/picc/s/198-1984670_google-play-store-logo-logo-png-google-play.png" alt="Google Play Store">
+                        <img src="./5a902db97f96951c82922874 (1).png" alt="Apple Store">
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./Pick-A-Pet Logo.png" alt=" Pick-A-Pet Logo" style="height: 100px; width: 100px;">
+                    <p class="text-white">Our Purpose Is To Sustainably Add Cuddly Members To Your Family, No Matter The Species OR Breed!</p>
+                </div>
+                <div class="col">
+                    <h3>Useful Links</h3>
+                    <ul class="text-white">
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                    <div class="col">
+                        <h3>Follow Us</h3>
+                        <ul class="text-white">
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright text-white">Copyright 2022 - Pick-A-Pet LLC.</p>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 
 </body>
