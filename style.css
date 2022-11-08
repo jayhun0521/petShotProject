@@ -83,9 +83,9 @@ p{
     background: #563434;
 }
 
-.header{
+/* .header{
     background: radial-gradient(#fff, #ffd6d6)
-}
+} */
 
 .header .row{
     margin-top: 70px;
@@ -106,7 +106,7 @@ p{
     width: 100%;
 }
 
-.small-container{
+.container-sm{
    max-width: 1080px;
    margin: auto;
    padding-left: 25px;
@@ -146,6 +146,11 @@ p{
     transform: translateX(-50%);
 }
 
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 h4{
     color: #555;
     font-weight: normal;
@@ -161,6 +166,23 @@ h4{
 
 .col-4:hover{
     transform: translateY(-5px);
+}
+
+.card{
+    background-color: rgb(214, 195, 221);
+    font: white;
+}
+
+.card-img-top {
+    border-width: 5px;
+    border-radius: 20px;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+
+.card-title{
+    position: center;
 }
 
 /* ------ Offer ----- */
@@ -286,4 +308,29 @@ ul{
 .contact-form{
     align-items: center;
     text-align: center;
+}
+
+
+
+
+/* shop page styles */
+/* .card {
+    margin-right: 0px;
+} */
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+#market {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    background: radial-gradient(#fff, #ffd6d6);
 }
