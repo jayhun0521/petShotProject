@@ -1,12 +1,12 @@
 var shop = [
     {
-      title: 'Tigers',
+      title: 'Timmy- Tiger',
       image: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg',
       price: '$7,500-15,000',
       description: "lorem ipsum"
     },
     {
-      title: "Rocky-Rottweiler",
+      title: "Rocky- Rottweiler",
       image: 'http://127.0.0.1:5500/petShopProject/rottweiler-2160308_1280-1024x682.jpg',
       price: '2500.00',
       description: "AKC Certified Bloodlines"
@@ -36,7 +36,7 @@ var shop = [
       description: 'Loves eating crickets and worms'
     },
     {
-      title: "Billy- Capushin Monkey",
+      title: "Billy- Capuchin",
       image:  'http://127.0.0.1:5500/petShopProject/capuchin.jpg',
       price: '10,000.00',
       description: "He'll love you forever if you give him dried fruit"
